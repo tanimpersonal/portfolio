@@ -36,3 +36,26 @@ h1{
 .texts a:hover{
     color: black;
 }
+.dream-big{
+    display: flex;
+    padding-top: 50px;
+}
+.dream-image{
+    width: 50%;
+}
+.dream-image img{
+    width: 80%;
+}
+.dream-text a{
+    text-decoration: none;
+    background-image: linear-gradient( orange, yellow);
+    padding: 10px 40px;
+    font-weight: 800;
+    border-radius: 50px;
+}
+.dream-text{
+    background-image:url(/portfolio/images/dream-bg.png);
+    background-repeat: no-repeat;
+    /* margin: 0; */
+    background-position: right;
+}
