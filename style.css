@@ -1,9 +1,38 @@
 body{
     font-family: 'Poppins', sans-serif;
-}
-h1{
-    
+    margin: 0;
 }
 .tanim{
     color: chocolate;
+}
+.top-banner{
+    display: flex;
+    background-image: url(/portfolio/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 80%;
+    /* text-align: center; */
+}
+.texts{
+    padding-left: 5%;
+}
+h1{
+    font-size: 50px;;
+}
+.texts a{
+    text-decoration: none;
+    padding: 5px 10px;
+    /* background-color: chocolate; */
+    background-image: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.texts a:hover{
+    color: black;
 }
